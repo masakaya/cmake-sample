@@ -1,3 +1,4 @@
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 include_directories( ${PROJECT_SOURCE_DIR}/SayClass/)
 link_directories( ${PROJECT_SOURCE_DIR}/SayClass/)
 add_library(demo DemoClass.cpp DemoClass.h)

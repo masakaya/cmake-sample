@@ -1,3 +1,4 @@
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 include_directories( ../DemoClass/)
 link_directories( ../DemoClass/)
 add_executable(main.x main.cpp)
