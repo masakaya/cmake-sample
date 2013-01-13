@@ -6,6 +6,6 @@ int main(int argc, char const* argv[])
 {
 	DemoClass demo;
 	demo.print();
-    printf("Test.\n");
+    printf("Test.22221\n");
 	return 0;
 }
