@@ -1,8 +1,11 @@
+#include <stdio.h>
 #include "../DemoClass/DemoClass.h"
+
 
 int main(int argc, char const* argv[])
 {
 	DemoClass demo;
-	demo.print();	
+	demo.print();
+    printf("Test.\n");
 	return 0;
 }
