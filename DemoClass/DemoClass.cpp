@@ -13,6 +13,6 @@ DemoClass::~DemoClass()
 }
 void DemoClass::print()
 {
-	say.setMessage("Hello Test.777\n");
+	say.setMessage("Hello Test.888\n");
 	printf("DemoMessage %s\n", say.getMessage().c_str() );
 }
