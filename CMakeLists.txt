@@ -1,5 +1,4 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 PROJECT(cmake_test)
-add_subdirectory (SayClass) 
-add_subdirectory (DemoClass) 
-add_subdirectory (Main) 
+add_subdirectory (src) 
+add_subdirectory (test) 
