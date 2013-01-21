@@ -5,6 +5,8 @@ class DemoClass {
 		DemoClass();
 		~DemoClass();
 		void print();
+		void print2();
+        void invaildStyle( int aTest);
 	private:
 	    SayClass& say;	
 };
