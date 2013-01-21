@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="DemoClass_8h" kind="file">
+    <compoundname>DemoClass.h</compoundname>
+    <includes refid="SayClass_8h" local="yes">../SayClass/SayClass.h</includes>
+    <includedby refid="DemoClass_8cpp" local="yes">DemoClass/DemoClass.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">Main/main.cpp</includedby>
+    <incdepgraph>
+      <node id="35">
+        <label>DemoClass/DemoClass.h</label>
+        <link refid="DemoClass.h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>../SayClass/SayClass.h</label>
+        <link refid="SayClass_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="38">
+        <label>DemoClass/DemoClass.h</label>
+        <link refid="DemoClass.h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Main/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="39">
+        <label>DemoClass/DemoClass.cpp</label>
+        <link refid="DemoClass_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classDemoClass" prot="public">DemoClass</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;../SayClass/SayClass.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classDemoClass" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classDemoClass" kindref="compound">DemoClass</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDemoClass_1ab232708c2e87c26b1292e55ad8a5a00f" kindref="member">DemoClass</ref>();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDemoClass_1ac22c3b34b51febc4c57e70f68c552da3" kindref="member">~DemoClass</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDemoClass_1a6c357e6031ede08427a7cf9dc880477c" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="classDemoClass_1aed27d0c4483b8a29069e2e90efb8ff12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSayClass" kindref="compound">SayClass</ref>&amp;<sp/><ref refid="classDemoClass_1aed27d0c4483b8a29069e2e90efb8ff12" kindref="member">say</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/sylphs/develop/cmake-sample/DemoClass/DemoClass.h"/>
+  </compounddef>
+</doxygen>

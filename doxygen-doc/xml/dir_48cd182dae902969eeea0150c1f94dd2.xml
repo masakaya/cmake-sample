@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_48cd182dae902969eeea0150c1f94dd2" kind="dir">
+    <compoundname>DemoClass/</compoundname>
+    <innerfile refid="DemoClass_8cpp">DemoClass.cpp</innerfile>
+    <innerfile refid="DemoClass_8h">DemoClass.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylphs/develop/cmake-sample/DemoClass/"/>
+  </compounddef>
+</doxygen>

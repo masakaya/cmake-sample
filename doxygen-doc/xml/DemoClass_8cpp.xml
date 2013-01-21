@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="DemoClass_8cpp" kind="file">
+    <compoundname>DemoClass.cpp</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="DemoClass_8h" local="yes">DemoClass.h</includes>
+    <incdepgraph>
+      <node id="31">
+        <label>DemoClass.h</label>
+        <link refid="DemoClass_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>../SayClass/SayClass.h</label>
+        <link refid="SayClass_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>string</label>
+      </node>
+      <node id="29">
+        <label>DemoClass/DemoClass.cpp</label>
+        <link refid="DemoClass.cpp"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="DemoClass_8h" kindref="compound">DemoClass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="5" refid="classDemoClass_1ab232708c2e87c26b1292e55ad8a5a00f" refkind="member"><highlight class="normal"><ref refid="classDemoClass_1ab232708c2e87c26b1292e55ad8a5a00f" kindref="member">DemoClass::DemoClass</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">:say(<sp/>*(new<sp/><ref refid="classSayClass" kindref="compound">SayClass</ref>())<sp/>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classDemoClass_1ac22c3b34b51febc4c57e70f68c552da3" refkind="member"><highlight class="normal"><ref refid="classDemoClass_1ac22c3b34b51febc4c57e70f68c552da3" kindref="member">DemoClass::~DemoClass</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>&amp;<ref refid="classDemoClass_1aed27d0c4483b8a29069e2e90efb8ff12" kindref="member">say</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14" refid="classDemoClass_1a6c357e6031ede08427a7cf9dc880477c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDemoClass_1a6c357e6031ede08427a7cf9dc880477c" kindref="member">DemoClass::print</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDemoClass_1aed27d0c4483b8a29069e2e90efb8ff12" kindref="member">say</ref>.<ref refid="classSayClass_1afb4d7ea98d95e9b9eba553cc8aca4dd7" kindref="member" tooltip="Set Say Message.">setMessage</ref>(</highlight><highlight class="stringliteral">&quot;Hello<sp/>Test.bbbb\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;DemoMessage<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="classDemoClass_1aed27d0c4483b8a29069e2e90efb8ff12" kindref="member">say</ref>.<ref refid="classSayClass_1a619e0ee356f9c04aa79ef11a8a3965fd" kindref="member" tooltip="Get Say Message.">getMessage</ref>().c_str()<sp/>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylphs/develop/cmake-sample/DemoClass/DemoClass.cpp"/>
+  </compounddef>
+</doxygen>

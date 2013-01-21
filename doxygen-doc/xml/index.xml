@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.7.6.1">
+  <compound refid="classDemoClass" kind="class"><name>DemoClass</name>
+    <member refid="classDemoClass_1aed27d0c4483b8a29069e2e90efb8ff12" kind="variable"><name>say</name></member>
+    <member refid="classDemoClass_1ab232708c2e87c26b1292e55ad8a5a00f" kind="function"><name>DemoClass</name></member>
+    <member refid="classDemoClass_1ac22c3b34b51febc4c57e70f68c552da3" kind="function"><name>~DemoClass</name></member>
+    <member refid="classDemoClass_1a6c357e6031ede08427a7cf9dc880477c" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="classSayClass" kind="class"><name>SayClass</name>
+    <member refid="classSayClass_1ae8e574040647db1b0f289f3aec5566ee" kind="variable"><name>mMessage</name></member>
+    <member refid="classSayClass_1ac9fb8db5cd217f8e5123fbe8043f9007" kind="function"><name>SayClass</name></member>
+    <member refid="classSayClass_1a54d89f97051256c5ba31c19e03ed3418" kind="function"><name>~SayClass</name></member>
+    <member refid="classSayClass_1a619e0ee356f9c04aa79ef11a8a3965fd" kind="function"><name>getMessage</name></member>
+    <member refid="classSayClass_1afb4d7ea98d95e9b9eba553cc8aca4dd7" kind="function"><name>setMessage</name></member>
+    <member refid="classSayClass_1acf487fb2d4c4d76cd509212b42170763" kind="function"><name>SayClass</name></member>
+    <member refid="classSayClass_1a02e6b50715d6f1a0633c6436d1779659" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="DemoClass_8cpp" kind="file"><name>DemoClass.cpp</name>
+  </compound>
+  <compound refid="DemoClass_8h" kind="file"><name>DemoClass.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1abf9e6b7e6f15df4b525a2e7705ba3089" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="SayClass_8cpp" kind="file"><name>SayClass.cpp</name>
+  </compound>
+  <compound refid="SayClass_8h" kind="file"><name>SayClass.h</name>
+  </compound>
+  <compound refid="dir_48cd182dae902969eeea0150c1f94dd2" kind="dir"><name>DemoClass/</name>
+  </compound>
+  <compound refid="dir_72c9eccbabb9190ea165fddc8ed67fa1" kind="dir"><name>Main/</name>
+  </compound>
+  <compound refid="dir_514fd8cb3e8026694ffb19b3939b0ea2" kind="dir"><name>SayClass/</name>
+  </compound>
+</doxygenindex>

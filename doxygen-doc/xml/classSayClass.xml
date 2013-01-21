@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classSayClass" kind="class" prot="public">
+    <compoundname>SayClass</compoundname>
+    <includes refid="SayClass_8h" local="no">SayClass.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSayClass_1ae8e574040647db1b0f289f3aec5566ee" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SayClass::mMessage</definition>
+        <argsstring></argsstring>
+        <name>mMessage</name>
+        <briefdescription>
+<para>Message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="29" bodyfile="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classSayClass_1a619e0ee356f9c04aa79ef11a8a3965fd" compoundref="SayClass_8cpp" startline="29" endline="32">getMessage</referencedby>
+        <referencedby refid="classSayClass_1afb4d7ea98d95e9b9eba553cc8aca4dd7" compoundref="SayClass_8cpp" startline="39" endline="42">setMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSayClass_1ac9fb8db5cd217f8e5123fbe8043f9007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SayClass::SayClass</definition>
+        <argsstring>()</argsstring>
+        <name>SayClass</name>
+        <briefdescription>
+<para>Constractor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="10" bodyfile="/home/sylphs/develop/cmake-sample/SayClass/SayClass.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classSayClass_1a54d89f97051256c5ba31c19e03ed3418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SayClass::~SayClass</definition>
+        <argsstring>()</argsstring>
+        <name>~SayClass</name>
+        <briefdescription>
+<para>Destractor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="13" bodyfile="/home/sylphs/develop/cmake-sample/SayClass/SayClass.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classSayClass_1a619e0ee356f9c04aa79ef11a8a3965fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string SayClass::getMessage</definition>
+        <argsstring>() const </argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+<para>Get Say Message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="18" bodyfile="/home/sylphs/develop/cmake-sample/SayClass/SayClass.cpp" bodystart="29" bodyend="32"/>
+        <references refid="classSayClass_1ae8e574040647db1b0f289f3aec5566ee" compoundref="SayClass_8h" startline="29">mMessage</references>
+        <referencedby refid="classDemoClass_1a6c357e6031ede08427a7cf9dc880477c" compoundref="DemoClass_8cpp" startline="14" endline="18">DemoClass::print</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSayClass_1afb4d7ea98d95e9b9eba553cc8aca4dd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SayClass::setMessage</definition>
+        <argsstring>(const string aMessage)</argsstring>
+        <name>setMessage</name>
+        <param>
+          <type>const string</type>
+          <declname>aMessage</declname>
+        </param>
+        <briefdescription>
+<para>Set Say Message. </para>        </briefdescription>
+        <detaileddescription>
+<para>:aMessage </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="25" bodyfile="/home/sylphs/develop/cmake-sample/SayClass/SayClass.cpp" bodystart="39" bodyend="42"/>
+        <references refid="classSayClass_1ae8e574040647db1b0f289f3aec5566ee" compoundref="SayClass_8h" startline="29">mMessage</references>
+        <referencedby refid="classDemoClass_1a6c357e6031ede08427a7cf9dc880477c" compoundref="DemoClass_8cpp" startline="14" endline="18">DemoClass::print</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSayClass_1acf487fb2d4c4d76cd509212b42170763" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SayClass::SayClass</definition>
+        <argsstring>(const SayClass &amp;aObj)</argsstring>
+        <name>SayClass</name>
+        <param>
+          <type>const <ref refid="classSayClass" kindref="compound">SayClass</ref> &amp;</type>
+          <declname>aObj</declname>
+        </param>
+        <briefdescription>
+<para>Disable Copy Constractor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classSayClass_1a02e6b50715d6f1a0633c6436d1779659" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SayClass::operator=</definition>
+        <argsstring>(const SayClass &amp;aObj)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classSayClass" kindref="compound">SayClass</ref> &amp;</type>
+          <declname>aObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" line="7" bodyfile="/home/sylphs/develop/cmake-sample/SayClass/SayClass.h" bodystart="7" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classSayClass_1a619e0ee356f9c04aa79ef11a8a3965fd" prot="public" virt="non-virtual"><scope>SayClass</scope><name>getMessage</name></member>
+      <member refid="classSayClass_1ae8e574040647db1b0f289f3aec5566ee" prot="private" virt="non-virtual"><scope>SayClass</scope><name>mMessage</name></member>
+      <member refid="classSayClass_1a02e6b50715d6f1a0633c6436d1779659" prot="private" virt="non-virtual"><scope>SayClass</scope><name>operator=</name></member>
+      <member refid="classSayClass_1ac9fb8db5cd217f8e5123fbe8043f9007" prot="public" virt="non-virtual"><scope>SayClass</scope><name>SayClass</name></member>
+      <member refid="classSayClass_1acf487fb2d4c4d76cd509212b42170763" prot="private" virt="non-virtual"><scope>SayClass</scope><name>SayClass</name></member>
+      <member refid="classSayClass_1afb4d7ea98d95e9b9eba553cc8aca4dd7" prot="public" virt="non-virtual"><scope>SayClass</scope><name>setMessage</name></member>
+      <member refid="classSayClass_1a54d89f97051256c5ba31c19e03ed3418" prot="public" virt="non-virtual"><scope>SayClass</scope><name>~SayClass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
